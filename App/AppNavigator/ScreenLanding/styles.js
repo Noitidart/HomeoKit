@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     bio: {
         alignItems: 'center',
         borderWidth: 1,
-        borderColor: '#DEDEDE',
+        borderColor: '#DCE0E5',
         marginVertical: 10,
         marginHorizontal: 30,
         borderRadius: 5
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     hr: {
         height: 1,
         width: '90%',
-        backgroundColor: '#DEDEDE',
+        backgroundColor: '#DCE0E5',
         position: 'absolute'
     },
     block: {
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     persona: {
         alignItems: 'center',
         borderWidth: 1,
-        borderColor: '#DEDEDE',
+        borderColor: '#DCE0E5',
         margin: 20,
         borderRadius: 5
     },

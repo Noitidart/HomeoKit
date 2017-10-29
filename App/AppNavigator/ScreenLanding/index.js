@@ -35,7 +35,7 @@ class ScreenThree extends PureComponent<void> {
                                 </Text>
                             </View>
                             <View>
-                                <Button title="Schedule Consultation" onPress={this.gotoSchedule} />
+                                <Button title="Schedule Consultation" onPress={this.gotoSchedule} color="#00AA7E" />
                             </View>
                         </View>
                     </View>
@@ -47,7 +47,7 @@ class ScreenThree extends PureComponent<void> {
                                 If you ride bikes you are under stresses from high speeds. You are also exposed to high pressure winds.
                             </Text>
                             <View>
-                                <Button title="View" onPress={()=>null} />
+                                <Button title="View" onPress={()=>null} color="#383D91" />
                             </View>
                         </View>
                     </View>
@@ -59,7 +59,7 @@ class ScreenThree extends PureComponent<void> {
                                 For your pet dog.
                             </Text>
                             <View>
-                                <Button title="View" onPress={()=>null} />
+                                <Button title="View" onPress={()=>null} color="#383D91" />
                             </View>
                         </View>
                     </View>
@@ -71,7 +71,7 @@ class ScreenThree extends PureComponent<void> {
                                 For your pet cat.
                             </Text>
                             <View>
-                                <Button title="View" onPress={()=>null} />
+                                <Button title="View" onPress={()=>null} color="#383D91" />
                             </View>
                         </View>
                     </View>

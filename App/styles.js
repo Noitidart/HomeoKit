@@ -2,7 +2,7 @@
 
 import { StyleSheet } from 'react-native'
 
-const APP_BACKGROUND = '#F6F8FB';
+const APP_BACKGROUND = '#FEFEFE';
 
 const app = {
     flex: 1
