@@ -6,17 +6,19 @@ import { StackNavigator } from 'react-navigation'
 import ScreenDemo from './ScreenDemo'
 import ScreenThree from './ScreenThree'
 import ScreenTwo from './ScreenTwo'
+import ScreenLanding from './ScreenLanding'
 
 import styles from './styles'
 
 const AppNavigator = StackNavigator(
     {
-        demo:     { screen:ScreenDemo },
-        two:      { screen:ScreenTwo },
-        three:    { screen:ScreenThree }
+        landing: { screen:ScreenLanding },
+        demo: { screen:ScreenDemo },
+        two: { screen:ScreenTwo },
+        three: { screen:ScreenThree }
     },
     {
-        initialRouteName: 'demo',
+        initialRouteName: 'landing',
         cardStyle: styles.card
     }
 )
